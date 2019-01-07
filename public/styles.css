@@ -1,0 +1,21 @@
+.card {
+    display: inline-grid;
+};
+.movieCard {
+    height: fit-content;
+    float: left;
+    display: inline-block;
+    padding: 8px;
+};
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  };
+  
+  .h2 {
+      text-align: center;
+  };
+
+ 
